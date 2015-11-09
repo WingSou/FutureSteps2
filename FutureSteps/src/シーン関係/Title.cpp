@@ -52,7 +52,7 @@ void Title::Draw()
 		break;
 	case FADE_IN:
 
-
+	
 
 		break;
 	case MAIN:

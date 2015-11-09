@@ -3,12 +3,6 @@
 #include "Game.h"
 #include "Result.h"
 
-enum ManagerScene
-{
-	TITLE,
-	MAIN,
-	RESULT
-};
 
 class SceneManager
 {
