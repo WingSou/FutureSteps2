@@ -47,6 +47,11 @@
     <ClInclude Include="src\Attack\Attack.h" />
     <ClInclude Include="src\_Character.h" />
     <ClInclude Include="src\_Object.h" />
+    <ClInclude Include="src\シーン関係\Game.h" />
+    <ClInclude Include="src\シーン関係\Result.h" />
+    <ClInclude Include="src\シーン関係\SceneCommon.h" />
+    <ClInclude Include="src\シーン関係\SceneManager.h" />
+    <ClInclude Include="src\シーン関係\Title.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Item\Item.cpp" />
@@ -73,6 +78,10 @@
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\Attack\Attack.cpp" />
     <ClCompile Include="src\_Character.cpp" />
+    <ClCompile Include="src\シーン関係\Game.cpp" />
+    <ClCompile Include="src\シーン関係\Result.cpp" />
+    <ClCompile Include="src\シーン関係\SceneManager.cpp" />
+    <ClCompile Include="src\シーン関係\Title.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{9EFD6A36-08E8-485E-B135-5B6519C0F6B1}</ProjectGuid>
