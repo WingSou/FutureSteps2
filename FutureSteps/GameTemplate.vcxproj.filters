@@ -103,6 +103,8 @@
     <ClInclude Include="src\シーン関係\SceneCommon.h" />
     <ClInclude Include="src\シーン関係\SceneManager.h" />
     <ClInclude Include="src\シーン関係\Title.h" />
+    <ClInclude Include="src\Character.h" />
+    <ClInclude Include="src\Player.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\lib\appEnv.cpp">

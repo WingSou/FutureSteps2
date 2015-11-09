@@ -12,6 +12,8 @@ void Character::Draw()
 	drawFillBox(pos.x(), pos.y(), size.x(), size.y(), Color::cyan);
 }
 
+
+
 void Character::Move() 
 {
 	if (App::env->isPressKey('W')) {
