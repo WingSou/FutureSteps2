@@ -7,7 +7,7 @@
 //class Object 
 //{
 //public:
-//	Player  player;
+//	Player   player;
 //	Enemy enemy;
 //private:
 //};
