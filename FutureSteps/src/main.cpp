@@ -1,6 +1,7 @@
 ﻿#pragma once
 #include "lib/framework.hpp"
-#include "_Object.h"
+#include "Player.h"
+#include "Enemy.h"
 
 std::shared_ptr<AppEnv> App::env;
 
@@ -9,12 +10,17 @@ int main() {
 	App::env =
 		std::make_shared<AppEnv>(WIDTH, HEIGHT, false, true);
 
+	Player player;
+	Enemy enemy;
+
 	while (App::env->isOpen()) {
 
 		App::env->begin();
 
-		obj.player.Draw();
-		obj.player.Move();
+		player.Draw();
+		player.Move();
+		enemy.Draw();
+		enemy.Move();
 
 
 		App::env->end();

@@ -97,7 +97,6 @@
       <Filter>Item</Filter>
     </ClInclude>
     <ClInclude Include="src\_Character.h" />
-    <ClInclude Include="src\_Object.h" />
     <ClInclude Include="src\シーン関係\Game.h" />
     <ClInclude Include="src\シーン関係\Result.h" />
     <ClInclude Include="src\シーン関係\SceneCommon.h" />
@@ -105,6 +104,8 @@
     <ClInclude Include="src\シーン関係\Title.h" />
     <ClInclude Include="src\Character.h" />
     <ClInclude Include="src\Player.h" />
+    <ClInclude Include="src\Enemy.h" />
+    <ClInclude Include="src\_Object.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\lib\appEnv.cpp">
@@ -179,5 +180,7 @@
     <ClCompile Include="src\シーン関係\Result.cpp" />
     <ClCompile Include="src\シーン関係\SceneManager.cpp" />
     <ClCompile Include="src\シーン関係\Title.cpp" />
+    <ClCompile Include="src\Player.cpp" />
+    <ClCompile Include="src\Enemy.cpp" />
   </ItemGroup>
 </Project>

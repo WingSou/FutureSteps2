@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Character.h" />
+    <ClInclude Include="src\Enemy.h" />
     <ClInclude Include="src\Item\Item.h" />
     <ClInclude Include="src\lib\appEnv.hpp" />
     <ClInclude Include="src\lib\audio.hpp" />
@@ -56,6 +57,7 @@
     <ClInclude Include="src\シーン関係\Title.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Enemy.cpp" />
     <ClCompile Include="src\Item\Item.cpp" />
     <ClCompile Include="src\lib\appEnv.cpp" />
     <ClCompile Include="src\lib\audio.cpp" />
@@ -79,6 +81,7 @@
     <ClCompile Include="src\lib\wav.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\Attack\Attack.cpp" />
+    <ClCompile Include="src\Player.cpp" />
     <ClCompile Include="src\_Character.cpp" />
     <ClCompile Include="src\シーン関係\Game.cpp" />
     <ClCompile Include="src\シーン関係\Result.cpp" />

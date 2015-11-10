@@ -1,14 +1,15 @@
 ﻿#pragma once
 #include "../src/lib/framework.hpp"
 
-class CharacterObject {
+class Character
+{
 protected:
 
-	CharacterObject();
-	void Draw();
-	void Move();
+	//Character();
+	//void Draw();
+	//void Move();
 
-	Vec2f getPos();
+	//Vec2f getPos();
 
 	Vec2f pos;   //位置
 	Vec2f size;  //サイズ
