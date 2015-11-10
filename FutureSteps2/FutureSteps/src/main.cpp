@@ -1,8 +1,12 @@
 ﻿#pragma once
 #include "lib/framework.hpp"
-#include "_Object.h"
+#include "Player.h"
+#include "Enemy.h"
 
 std::shared_ptr<AppEnv> App::env;
+
+Player player;
+Enemy enemy;
 
 int main() {
 	
@@ -13,8 +17,10 @@ int main() {
 
 		App::env->begin();
 
-		obj.player.Draw();
-		obj.player.Move();
+		player.Draw();
+		player.Move();
+		enemy.Draw();
+		enemy.Move();
 
 
 		App::env->end();

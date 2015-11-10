@@ -8,9 +8,9 @@ Attack::Attack()
 
 void Attack::Bomb()
 {
-	if (App::env->isPushKey('1')) {
-		attack_start_pos = obj.player.getPos();
-	}
+	//if (App::env->isPushKey('1')) {
+		//attack_start_pos = obj.player.getPos();
+	//}
 
 
 }

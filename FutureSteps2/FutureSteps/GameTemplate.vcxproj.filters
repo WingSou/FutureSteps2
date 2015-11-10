@@ -98,6 +98,9 @@
     </ClInclude>
     <ClInclude Include="src\_Character.h" />
     <ClInclude Include="src\_Object.h" />
+    <ClInclude Include="src\Character.h" />
+    <ClInclude Include="src\Player.h" />
+    <ClInclude Include="src\Enemy.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\lib\appEnv.cpp">
@@ -168,5 +171,7 @@
       <Filter>Item</Filter>
     </ClCompile>
     <ClCompile Include="src\_Character.cpp" />
+    <ClCompile Include="src\Player.cpp" />
+    <ClCompile Include="src\Enemy.cpp" />
   </ItemGroup>
 </Project>

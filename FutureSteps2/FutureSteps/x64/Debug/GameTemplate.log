@@ -1,5 +1,9 @@
-﻿  Attack.cpp
-  Item.cpp
-  _Character.cpp
-  main.cpp
-  GameTemplate.vcxproj -> C:\Users\vantan\Documents\ゲーム制作\FutureSteps\FutureSteps.exe
+﻿2015/11/10 18:40:01 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\vantann\Documents\GitHub\FutureSteps2\FutureSteps2\FutureSteps\GameTemplate.vcxproj" (Build ターゲット)。
+     1>Link:
+         GameTemplate.vcxproj -> C:\Users\vantann\Documents\GitHub\FutureSteps2\FutureSteps2\FutureSteps\FutureSteps.exe
+     1>プロジェクト "C:\Users\vantann\Documents\GitHub\FutureSteps2\FutureSteps2\FutureSteps\GameTemplate.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:00.12
